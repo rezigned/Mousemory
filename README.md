@@ -6,9 +6,9 @@
 </p>
 <p align="center">
 <img alt="Platform" src="https://img.shields.io/badge/platform-macos-blue?style=flat-square">
-<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/rezigned/Mousemory/total?style=flat-square">
-<img alt="Code size" src="https://img.shields.io/github/languages/code-size/rezigned/Mousemory?style=flat-square">
-<img alt="GitHub" src="https://img.shields.io/github/license/rezigned/Mousemory?style=flat-square">
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/rezigned/Mousemory/total?style=flat-square&1">
+<img alt="Code size" src="https://img.shields.io/github/languages/code-size/rezigned/Mousemory?style=flat-square&1">
+<img alt="GitHub" src="https://img.shields.io/github/license/rezigned/Mousemory?style=flat-square&1">
 </p>
 
 <p align="center">
@@ -17,13 +17,13 @@
 
 ## Mousemory
 
-A simple macOS utility that records/restores mouse position across different monitors.
+A simple macOS utility that remebers mouse position across different monitors.
 
 Whenever you switch the app via `⌘ ⇥` (cmd + tab) and the target app is on another monitor. It'll restore mouse position on that monitor for you.
 
 ## Donate
 
-If you want to support this project. You can do it by buying me a coffee. Thanks!
+If you want to support this project. You can do it by [buying me a coffee](https://www.buymeacoffee.com/rezigned). Thanks!
 
 <a href="https://www.buymeacoffee.com/rezigned"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=rezigned&button_colour=40DCA5&font_colour=ffffff&font_family=Bree&outline_colour=000000&coffee_colour=208A51"></a>
 ## Installation
@@ -35,7 +35,7 @@ Download latest verion [here](https://github.com/rezigned/Mousemory/releases)
 **Homebrew**
 
 ```
-brew install --cask mousemory
+brew install --cask dpx/dpx/mousemory
 ```
 ## Features
 
