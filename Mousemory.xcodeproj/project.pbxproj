@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730858F626FE149D00B018A1 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730858F526FE149D00B018A1 /* About.swift */; };
+		7385D3E526FF126500BC9B2B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7385D3E426FF126500BC9B2B /* Log.swift */; };
+		73A65C9A26F23C9C009B39CE /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A65C9926F23C9C009B39CE /* Mouse.swift */; };
+		73A65C9C26F2435B009B39CE /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A65C9B26F2435B009B39CE /* Events.swift */; };
+		73C7D68226F4E3DE008AB30E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C7D68126F4E3DE008AB30E /* ContentView.swift */; };
+		73C7D68426F5D2AE008AB30E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C7D68326F5D2AE008AB30E /* Color.swift */; };
+		73C7D68626F62CAE008AB30E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C7D68526F62CAE008AB30E /* Menu.swift */; };
+		73C7D68826F7364C008AB30E /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C7D68726F7364C008AB30E /* UserSettings.swift */; };
+		73CF251526EC8723001AC649 /* MousemoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CF251426EC8723001AC649 /* MousemoryApp.swift */; };
+		73CF251926EC8725001AC649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73CF251826EC8725001AC649 /* Assets.xcassets */; };
+		73CF251C26EC8725001AC649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73CF251B26EC8725001AC649 /* Preview Assets.xcassets */; };
+		73CF254326EC8ED5001AC649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CF254226EC8ED5001AC649 /* AppDelegate.swift */; };
+		73CF254726EDE539001AC649 /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CF254626EDE539001AC649 /* Screens.swift */; };
+		73CF254926EE4568001AC649 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CF254826EE4568001AC649 /* Highlight.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73CF252426EC8726001AC649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73CF250926EC8723001AC649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73CF251026EC8723001AC649;
+			remoteInfo = Mousemory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		730858F526FE149D00B018A1 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		7385D3E426FF126500BC9B2B /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		73A65C9926F23C9C009B39CE /* Mouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mouse.swift; sourceTree = "<group>"; };
+		73A65C9B26F2435B009B39CE /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		73C7D68126F4E3DE008AB30E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73C7D68326F5D2AE008AB30E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		73C7D68526F62CAE008AB30E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		73C7D68726F7364C008AB30E /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		73CF251126EC8723001AC649 /* Mousemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mousemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CF251426EC8723001AC649 /* MousemoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MousemoryApp.swift; sourceTree = "<group>"; };
+		73CF251826EC8725001AC649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73CF251B26EC8725001AC649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73CF251D26EC8725001AC649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73CF251E26EC8725001AC649 /* Mousemory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mousemory.entitlements; sourceTree = "<group>"; };
+		73CF252326EC8726001AC649 /* MousemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MousemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CF254226EC8ED5001AC649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73CF254626EDE539001AC649 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		73CF254826EE4568001AC649 /* Highlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlight.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73CF250E26EC8723001AC649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CF252026EC8726001AC649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730858F726FE214000B018A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				730858F526FE149D00B018A1 /* About.swift */,
+				73C7D68726F7364C008AB30E /* UserSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7324EEEE26FE21E3009DE569 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73C7D68126F4E3DE008AB30E /* ContentView.swift */,
+				73C7D68526F62CAE008AB30E /* Menu.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7324EEEF26FE2361009DE569 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73A65C9B26F2435B009B39CE /* Events.swift */,
+				73CF254626EDE539001AC649 /* Screens.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7385D3E326FE324400BC9B2B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				73C7D68326F5D2AE008AB30E /* Color.swift */,
+				73CF254826EE4568001AC649 /* Highlight.swift */,
+				73A65C9926F23C9C009B39CE /* Mouse.swift */,
+				7385D3E426FF126500BC9B2B /* Log.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		73CF250826EC8723001AC649 = {
+			isa = PBXGroup;
+			children = (
+				73CF251326EC8723001AC649 /* Mousemory */,
+				73CF251226EC8723001AC649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73CF251226EC8723001AC649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73CF251126EC8723001AC649 /* Mousemory.app */,
+				73CF252326EC8726001AC649 /* MousemoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73CF251326EC8723001AC649 /* Mousemory */ = {
+			isa = PBXGroup;
+			children = (
+				7385D3E326FE324400BC9B2B /* Core */,
+				7324EEEF26FE2361009DE569 /* Extensions */,
+				7324EEEE26FE21E3009DE569 /* Views */,
+				730858F726FE214000B018A1 /* Models */,
+				73CF254226EC8ED5001AC649 /* AppDelegate.swift */,
+				73CF251426EC8723001AC649 /* MousemoryApp.swift */,
+				73CF251826EC8725001AC649 /* Assets.xcassets */,
+				73CF251D26EC8725001AC649 /* Info.plist */,
+				73CF251E26EC8725001AC649 /* Mousemory.entitlements */,
+				73CF251A26EC8725001AC649 /* Preview Content */,
+			);
+			path = Mousemory;
+			sourceTree = "<group>";
+		};
+		73CF251A26EC8725001AC649 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				73CF251B26EC8725001AC649 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73CF251026EC8723001AC649 /* Mousemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73CF253726EC8726001AC649 /* Build configuration list for PBXNativeTarget "Mousemory" */;
+			buildPhases = (
+				73CF250D26EC8723001AC649 /* Sources */,
+				73CF250E26EC8723001AC649 /* Frameworks */,
+				73CF250F26EC8723001AC649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mousemory;
+			productName = Mousemory;
+			productReference = 73CF251126EC8723001AC649 /* Mousemory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73CF252226EC8726001AC649 /* MousemoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73CF253A26EC8726001AC649 /* Build configuration list for PBXNativeTarget "MousemoryTests" */;
+			buildPhases = (
+				73CF251F26EC8726001AC649 /* Sources */,
+				73CF252026EC8726001AC649 /* Frameworks */,
+				73CF252126EC8726001AC649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73CF252526EC8726001AC649 /* PBXTargetDependency */,
+			);
+			name = MousemoryTests;
+			productName = MousemoryTests;
+			productReference = 73CF252326EC8726001AC649 /* MousemoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73CF250926EC8723001AC649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					73CF251026EC8723001AC649 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					73CF252226EC8726001AC649 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 73CF251026EC8723001AC649;
+					};
+				};
+			};
+			buildConfigurationList = 73CF250C26EC8723001AC649 /* Build configuration list for PBXProject "Mousemory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73CF250826EC8723001AC649;
+			productRefGroup = 73CF251226EC8723001AC649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73CF251026EC8723001AC649 /* Mousemory */,
+				73CF252226EC8726001AC649 /* MousemoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73CF250F26EC8723001AC649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CF251C26EC8725001AC649 /* Preview Assets.xcassets in Resources */,
+				73CF251926EC8725001AC649 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CF252126EC8726001AC649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73CF250D26EC8723001AC649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CF254726EDE539001AC649 /* Screens.swift in Sources */,
+				7385D3E526FF126500BC9B2B /* Log.swift in Sources */,
+				73A65C9A26F23C9C009B39CE /* Mouse.swift in Sources */,
+				730858F626FE149D00B018A1 /* About.swift in Sources */,
+				73C7D68426F5D2AE008AB30E /* Color.swift in Sources */,
+				73CF254326EC8ED5001AC649 /* AppDelegate.swift in Sources */,
+				73C7D68626F62CAE008AB30E /* Menu.swift in Sources */,
+				73C7D68826F7364C008AB30E /* UserSettings.swift in Sources */,
+				73A65C9C26F2435B009B39CE /* Events.swift in Sources */,
+				73C7D68226F4E3DE008AB30E /* ContentView.swift in Sources */,
+				73CF254926EE4568001AC649 /* Highlight.swift in Sources */,
+				73CF251526EC8723001AC649 /* MousemoryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CF251F26EC8726001AC649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73CF252526EC8726001AC649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73CF251026EC8723001AC649 /* Mousemory */;
+			targetProxy = 73CF252426EC8726001AC649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73CF253526EC8726001AC649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73CF253626EC8726001AC649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		73CF253826EC8726001AC649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Mousemory/Mousemory.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Mousemory/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Mousemory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezigned.Mousemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		73CF253926EC8726001AC649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Mousemory/Mousemory.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Mousemory/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Mousemory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezigned.Mousemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		73CF253B26EC8726001AC649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MousemoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezigned.MousemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mousemory.app/Contents/MacOS/Mousemory";
+			};
+			name = Debug;
+		};
+		73CF253C26EC8726001AC649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MousemoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezigned.MousemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mousemory.app/Contents/MacOS/Mousemory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73CF250C26EC8723001AC649 /* Build configuration list for PBXProject "Mousemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CF253526EC8726001AC649 /* Debug */,
+				73CF253626EC8726001AC649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73CF253726EC8726001AC649 /* Build configuration list for PBXNativeTarget "Mousemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CF253826EC8726001AC649 /* Debug */,
+				73CF253926EC8726001AC649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73CF253A26EC8726001AC649 /* Build configuration list for PBXNativeTarget "MousemoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CF253B26EC8726001AC649 /* Debug */,
+				73CF253C26EC8726001AC649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73CF250926EC8723001AC649 /* Project object */;
+}
